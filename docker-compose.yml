@@ -2,7 +2,7 @@ version: '3'
 
 services:
   tor-nginx:
-    image: i5heu/tor-simple-hidden-website
+    image: austinsonger/tor-website
     restart: always
     volumes:
       - ./tor-config:/etc/tor:Z
